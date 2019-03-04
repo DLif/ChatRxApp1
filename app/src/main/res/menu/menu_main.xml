@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.chatrxtest1.MainActivity">
+    <item
+        android:id="@+id/simulate_new_msg"
+        android:orderInCategory="100"
+        android:title="@string/simulate_new_msg_menu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/simulate_msg_no_audio"
+        android:orderInCategory="100"
+        android:title="@string/simulate_msg_no_audio_menu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/get_token"
+        android:orderInCategory="100"
+        android:title="@string/get_firebase_token_menu"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>

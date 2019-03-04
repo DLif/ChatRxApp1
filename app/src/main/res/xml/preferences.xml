@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.preference.SwitchPreferenceCompat
+        android:defaultValue="true"
+        android:key="auto_play_preference"
+        android:summary="@string/audio_auto_play_preference_summery"
+        android:title="@string/audio_auto_play_preference_title" />
+    <android.support.v7.preference.EditTextPreference
+        android:defaultValue="192.168.43.226"
+        android:key="server_name_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/server_name_preference_title"
+        android:summary="@string/server_name_preference_summery"/>
+    <android.support.v7.preference.EditTextPreference
+        android:defaultValue="DL"
+        android:key="client_uid_preference"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/client_uid_preference_title"
+        android:summary="@string/client_uid_preference_summery"/>
+    <android.support.v7.preference.Preference
+        android:key="reset_audio_preference"
+        android:title="@string/reset_audio_preference_title"
+        android:summary="@string/reset_audio_preference_summery"/>
+    <android.support.v7.preference.Preference
+        android:key="update_audio_preference"
+        android:title="@string/update_audio_preference_title"
+        android:summary="@string/update_audio_preference_summery"/>
+</PreferenceScreen>

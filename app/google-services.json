@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "61479824271",
+    "firebase_url": "https://chatrxtest1.firebaseio.com",
+    "project_id": "chatrxtest1",
+    "storage_bucket": "chatrxtest1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61479824271:android:c9baaf7857eb313f",
+        "android_client_info": {
+          "package_name": "com.example.chatrxtest1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61479824271-cit6cf20u90ldtg1a8omn2r1rtl7heqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwp_ZQ0JORbWZTN6GKCOdazJqxblgzLA4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

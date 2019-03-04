@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ChatRxTest1</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="simulate_new_msg_menu">Simulate new message</string>
+    <string name="simulate_msg_no_audio_menu">Simulate message no audio</string>
+    <string name="get_firebase_token_menu">Get firbase token</string>
+
+    <string name="in_message_default_name">Rose</string>
+    <string name="in_message_default_txt_data">How are you doing? This is a long message that should probably wrap.</string>
+
+    <string name="user_server_reg_failure_part1_toast">Failed to register with server </string>
+    <string name="user_server_reg_failure_part2_toast">. Please make sure you have an internet connection and restart the app.</string>
+
+
+    <string name="settings_activity_label">Settings</string>
+
+    <string name="audio_auto_play_preference_title">Audio auto-play</string>
+    <string name="audio_auto_play_preference_summery">Play immediately the audio of each message received</string>
+    <string name="server_name_preference_title">Server name</string>
+    <string name="server_name_preference_summery">Edit communication server name</string>
+    <string name="client_uid_preference_title">Username</string>
+    <string name="client_uid_preference_summery">Edit app current user</string>
+    <string name="reset_audio_preference_title">Reset audio</string>
+    <string name="reset_audio_preference_summery">Reset all audio files to default</string>
+    <string name="update_audio_preference_title">Update audio</string>
+    <string name="update_audio_preference_summery">Download updated audio files from server</string>
+
+
+    <string name="audio_updated_toast">Audio files updated</string>
+    <string name="audio_default_reset_toast">Audio files reset to default</string>
+</resources>

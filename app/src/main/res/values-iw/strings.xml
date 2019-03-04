@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">צאט חד כיווני 1</string>
+
+    <string name="action_settings">הגדרות</string>
+    <string name="simulate_new_msg_menu">דמה הודעה חדשה</string>
+    <string name="simulate_msg_no_audio_menu">דמה הודעה ללא צליל</string>
+    <string name="get_firebase_token_menu">השג Firbase token</string>
+
+    <string name="in_message_default_name">נדב</string>
+    <string name="in_message_default_txt_data">מה קורה? זוהי בדיקה עבור הודעת טקסט ארוכה מספיק, כך שהיא צריכה לרדת שורה.</string>
+
+    <string name="user_server_reg_failure_part1_toast">כישלון ביצירת קשר עם השרת </string>
+    <string name="user_server_reg_failure_part2_toast">. אנא וודא כי החיבור לאינטרנט עובד והדלק את האפליקצייה מחדש.</string>
+
+
+    <string name="settings_activity_label">הגדרות</string>
+
+    <string name="audio_auto_play_preference_title">השמע הודעות אוטומטית</string>
+    <string name="audio_auto_play_preference_summery">נגן כל הודעה קולית באופן אוטומטי מרגע קבלת</string>
+    <string name="server_name_preference_title">שם השרת</string>
+    <string name="server_name_preference_summery">ערוך את שם השרת מולו עובדת האפליקצייה</string>
+    <string name="client_uid_preference_title">שם משתמש</string>
+    <string name="client_uid_preference_summery">ערוך את שם המשתמש המשתמש כרגע באפליקצייה</string>
+    <string name="reset_audio_preference_title">אתחל קבצי שמע</string>
+    <string name="reset_audio_preference_summery">החזר את כל קבצי השמע למצב בררת המחדל</string>
+    <string name="update_audio_preference_title">עדכן קבצי שמע</string>
+    <string name="update_audio_preference_summery">הורד את קבצי השמע העדכניים מהשרת עבור המשתמש הנוכחי</string>
+
+    <string name="audio_updated_toast">קבצי השמע עודכנו</string>
+    <string name="audio_default_reset_toast">קבצי השמע אותחלו לבררת המחדל</string>
+</resources>
