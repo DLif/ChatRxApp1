@@ -103,7 +103,7 @@ public class Registration implements ICommCaller {
                         String phoneNumber = GetPhoneNumber(_callerActivity);
                         String deviceName = getDeviceName();
                         String registrationBody =
-                                String.format("{ \"token\": \"%s\", \"phoneNumber\": \"%s\", \"deviceName\": \"%s\"}", phoneNumber, token, deviceName);
+                                String.format("{ \"token\": \"%s\", \"phoneNumber\": \"%s\", \"deviceName\": \"%s\"}", token, phoneNumber, deviceName);
 
                         //Post the http registration on another thread
                         AsyncHandlerWrapper registrationCall = new AsyncHandlerWrapper(commCaller);
