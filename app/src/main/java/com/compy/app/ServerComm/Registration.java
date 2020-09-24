@@ -1,4 +1,4 @@
-package com.example.chatrxtest1.ServerComm;
+package com.compy.app.ServerComm;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.example.chatrxtest1.R;
+import com.compy.app.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.iid.FirebaseInstanceId;

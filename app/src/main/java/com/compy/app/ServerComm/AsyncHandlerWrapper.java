@@ -1,4 +1,4 @@
-package com.example.chatrxtest1.ServerComm;
+package com.compy.app.ServerComm;
 
 import android.os.AsyncTask;
 

@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "61479824271",
-    "firebase_url": "https://chatrxtest1.firebaseio.com",
-    "project_id": "chatrxtest1",
-    "storage_bucket": "chatrxtest1.appspot.com"
+    "firebase_url": "https://compyapp.firebaseio.com",
+    "project_id": "compyapp",
+    "storage_bucket": "compyapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:61479824271:android:c9baaf7857eb313f",
         "android_client_info": {
-          "package_name": "com.example.chatrxtest1"
+          "package_name": "com.compy.app"
         }
       },
       "oauth_client": [

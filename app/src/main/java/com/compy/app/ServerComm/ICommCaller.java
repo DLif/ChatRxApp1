@@ -1,4 +1,4 @@
-package com.example.chatrxtest1.ServerComm;
+package com.compy.app.ServerComm;
 
 public interface ICommCaller {
     String calledToAsynced(String... params);

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.chatrxtest1"
+        applicationId "com.compy.app"
         minSdkVersion 24
         targetSdkVersion 27
         versionCode 1

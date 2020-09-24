@@ -1,7 +1,6 @@
-package com.example.chatrxtest1.Firebase;
+package com.compy.app.Firebase;
 
 import android.content.Intent;
-import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
@@ -42,7 +41,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 intent.putExtra("MessageId", msgMetaData.get("MessageId"));
             }
 
-            intent.setAction("com.example.chatrxtest1.onMessageReceived");
+            intent.setAction("com.compy.chatrxtest1.onMessageReceived");
             //LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(intent);
             sendStickyBroadcast(intent); //sendStickyBroadcast use sticky broadcast so we can receive the intent even if the application is in the background
         }

@@ -1,10 +1,9 @@
-package com.example.chatrxtest1;
+package com.compy.app;
 
-import android.preference.Preference;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.chatrxtest1.Settings.SettingsFragment;
+import com.compy.app.Settings.SettingsFragment;
 
 public class SettingsActivity extends AppCompatActivity {
 

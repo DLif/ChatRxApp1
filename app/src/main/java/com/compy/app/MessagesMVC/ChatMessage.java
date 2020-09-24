@@ -1,11 +1,11 @@
-package com.example.chatrxtest1.MessagesMVC;
+package com.compy.app.MessagesMVC;
 
 import android.content.Context;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.example.chatrxtest1.Audio.AudioPlayer;
-import com.example.chatrxtest1.Audio.AudioStateConveyor;
+import com.compy.app.Audio.AudioPlayer;
+import com.compy.app.Audio.AudioStateConveyor;
 
 public class ChatMessage implements Parcelable {
     private String _text;

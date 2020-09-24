@@ -1,10 +1,10 @@
-package com.example.chatrxtest1.ServerComm.AudioUpdate;
+package com.compy.app.ServerComm.AudioUpdate;
 
 import android.app.Activity;
 import android.util.Log;
 
-import com.example.chatrxtest1.ServerComm.AsyncHandlerWrapper;
-import com.example.chatrxtest1.ServerComm.ICommCaller;
+import com.compy.app.ServerComm.AsyncHandlerWrapper;
+import com.compy.app.ServerComm.ICommCaller;
 
 import org.json.JSONArray;
 import org.json.JSONException;

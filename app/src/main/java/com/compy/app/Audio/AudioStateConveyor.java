@@ -1,9 +1,9 @@
-package com.example.chatrxtest1.Audio;
+package com.compy.app.Audio;
 
 import android.app.Activity;
 import android.util.Log;
 
-import com.example.chatrxtest1.MessagesMVC.MessageViewHolder;
+import com.compy.app.MessagesMVC.MessageViewHolder;
 
 public class AudioStateConveyor {
 

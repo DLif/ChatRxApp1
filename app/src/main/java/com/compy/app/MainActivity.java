@@ -1,4 +1,4 @@
-package com.example.chatrxtest1;
+package com.compy.app;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,12 +14,12 @@ import android.view.MenuItem;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.chatrxtest1.Firebase.IChatReceiver;
-import com.example.chatrxtest1.Firebase.NotificationIntentReceiver;
-import com.example.chatrxtest1.MessagesMVC.ChatMessage;
-import com.example.chatrxtest1.MessagesMVC.MemberData;
-import com.example.chatrxtest1.MessagesMVC.MessageAdapter;
-import com.example.chatrxtest1.ServerComm.Registration;
+import com.compy.app.Firebase.IChatReceiver;
+import com.compy.app.Firebase.NotificationIntentReceiver;
+import com.compy.app.MessagesMVC.ChatMessage;
+import com.compy.app.MessagesMVC.MemberData;
+import com.compy.app.MessagesMVC.MessageAdapter;
+import com.compy.app.ServerComm.Registration;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.iid.FirebaseInstanceId;
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements IChatReceiver {
         super.onResume();
         Log.d(TAG, "The onResume has been called on the main activity");
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("com.example.chatrxtest1.onMessageReceived");
+        intentFilter.addAction("com.compy.chatrxtest1.onMessageReceived");
 
         Intent stickyIntent = registerReceiver(_pushNotificationReceiver, intentFilter);
 

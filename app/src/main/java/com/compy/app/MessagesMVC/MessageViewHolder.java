@@ -1,4 +1,4 @@
-package com.example.chatrxtest1.MessagesMVC;
+package com.compy.app.MessagesMVC;
 
 import android.widget.Button;
 import android.widget.SeekBar;

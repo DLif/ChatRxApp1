@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ChatRxTest1</string>
+    <string name="app_name">Compy</string>
 
     <string name="action_settings">Settings</string>
     <string name="simulate_new_msg_menu">Simulate new message</string>

@@ -1,4 +1,4 @@
-package com.example.chatrxtest1.MessagesMVC;
+package com.compy.app.MessagesMVC;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -9,11 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.example.chatrxtest1.Audio.AudioStateConveyor;
-import com.example.chatrxtest1.R;
+import com.compy.app.Audio.AudioStateConveyor;
+import com.compy.app.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class MessageAdapter extends BaseAdapter {
 

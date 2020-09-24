@@ -1,4 +1,4 @@
-package com.example.chatrxtest1.Firebase;
+package com.compy.app.Firebase;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -6,9 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.example.chatrxtest1.MessagesMVC.ChatMessage;
-import com.example.chatrxtest1.MessagesMVC.MemberData;
-import com.example.chatrxtest1.R;
+import com.compy.app.MessagesMVC.ChatMessage;
+import com.compy.app.MessagesMVC.MemberData;
+import com.compy.app.R;
 
 import java.io.File;
 

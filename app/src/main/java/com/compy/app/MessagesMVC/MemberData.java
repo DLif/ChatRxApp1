@@ -1,4 +1,4 @@
-package com.example.chatrxtest1.MessagesMVC;
+package com.compy.app.MessagesMVC;
 
 public class MemberData {
     private String name;
